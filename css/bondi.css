@@ -1,0 +1,182 @@
+:root {
+   --dark-color: #001253;
+   --oreng-color: #3D8361;
+   --text-color: #ffff;
+   --hover-color: #FF9F29;
+   --section-color:#eff7fa;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.main-btn {
+    background-color:var(--oreng-color);
+    color: var(--text-color);
+    padding: 0.5rem 1rem;
+}
+.main-btn:hover {
+    color: var(--hover-color);
+}
+.main-title::after {
+    content: " ";
+    width: 180px;
+    height: 2px;
+    background-color: var(--oreng-color);
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* Start Navbar  */
+.navbar{
+    background-color: var(--dark-color);
+}
+.navbar .navbar-nav .nav-link{
+    color: white;
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--hover-color);
+}
+.navbar .search {
+    border-left: 1px solid var(--green-color);
+}
+.navbar .search svg {
+    color: var(--hover-color);
+}
+.navbar .navbar-toggler {
+    color: white;
+    font-size: 25px;
+    border-color: white;
+}
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+/* End Navbar */
+/* Start landing */
+.landing {
+    background-color: var(--dark-color);
+    min-height: calc(100vh - 72px);
+}
+/* End landing */
+/* Start features */
+.container .main-title svg {
+    width: 60px;
+    height: 65px;
+    color: var(--oreng-color);
+}
+/* End features  */
+/* Start features */
+.features .icon-hold {
+    height: 200px;
+}
+.features .icon-hold svg {
+    left: 50%;
+    transform: translateX(-50%);
+}
+.features .icon-hold .number {
+    font-size: 12rem;
+    color: var(--section-color);
+}
+.features .icon-hold .icon {
+    color: var(--hover-color);
+}
+.features .feat h3 {
+    color: var(--dark-color);
+}
+/* End features */
+/* Start our-work */
+.our-work {
+    background-color: var(--section-color);
+}
+.our-work ul .active {
+    background-color:var(--oreng-color);
+    color: var(--text-color);
+}
+.our-work ul li {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+.our-work ul li:not(.active):hover {
+    color: var(--hover-color);
+}
+.our-work .box {
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+}
+/* End our-work */
+/* Start stuff */
+.stuff .descri {
+    width: 400px;
+} 
+/* End stuff */
+/* Start TEam  */
+.team {
+    background-color: var(--section-color);
+    
+}
+.team p {
+    width: 400px;
+}
+.box .color-line {
+    color: #3D8361;
+}
+.social-links{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+.social-links > li{
+    display:inline-block;
+    margin-right:5px;
+    color: #000;
+}
+.social-links > li:hover {
+    color: var(--hover-color);
+}
+/* End TEam  */
+/* stpro */
+.stpro {
+    background-color: var(--dark-color);
+}
+/* end stpro */
+/* start subscribe */
+.subscribe {
+    background-color: var(--hover-color);
+}
+.subscribe input[type="text"] {
+    border: none;
+    border-bottom: 1px solid white;
+}
+.subscribe input[type="text"] :focus {
+    outline: none;
+}
+.subscribe ::placeholder {
+    color: white;
+}
+.subscribe input[type="submit"] {
+    background-color: var(--dark-color);
+    color: var(--hover-color);
+}
+/* End subscribe */
+/* Start footer */
+footer {
+    background-color: var(--dark-color);
+}
+.copyright{
+    color: var(--hover-color);
+}
+.round-btn {display: inline;height: 40px; width: 40px; background:#fff;border-radius: 50%;float: left;margin: 15px 8px;box-shadow: 2px 2px 5px 0px rgb(82, 0, 67);border: 1px solid;/*border: 1px solid #622657;*/}
+.round-btn a {display: block !important;padding: 7px 12px;font-size: 18px;border-radius: 50%;}
+.round-btn .icon {padding: 3px;}
+.round-btn .icon img{height: 24px; width: 32px;margin-top: 6px;}
+.btn-facebook a {color: #3b5998;padding: 8px 13px;}
+.btn-linkedin a {color: #007bb6;}
+.btn-twitter a{color: #1c9deb;}
+.btn-instagram a{color: #dd3f5c;}
+.btn-whatsapp a{color: #155E54;}
+.btn-envelop a{color: #D6403A;font-size: 15px; padding: 9px 12px;}
+.standard_header .standard_social_links {margin-left: 1rem;}
+
+/* End footer */
